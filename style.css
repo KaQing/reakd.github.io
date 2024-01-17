@@ -1,0 +1,58 @@
+*{
+    padding: 40;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+#game{
+    width: 810px;
+    height: 500px;
+    border: 3px solid white;
+    margin: auto;
+    background-color: white;
+    margin-top:100px;     
+    text-align: center;
+    font-size: 210px;
+    font-family: Consolas;
+}
+
+
+#block{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 130px;
+    left: 810px;
+    animation: block 1s infinite linear;
+    animation-duration: 10s;
+}
+@keyframes 
+block{
+    0%{left: 810px}
+    100%{left: -150px}
+    0%{background-color: green}
+    100%{background-color: red}
+}
+@keyframes
+mymove{
+    0%{left: 810px}
+    100%{left: -20px}
+    0%{background-color: blue}
+    100%{background-color: blueviolet}
+}
+
+#score{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 38px;
+    width: 810px;
+    height: 46px;
+    border: 3px solid white;
+    margin: auto;
+    background-color: black
+}
+    
+p{
+    text-align: center;
+}
